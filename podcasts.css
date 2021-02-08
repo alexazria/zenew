@@ -1,0 +1,60 @@
+p{
+  margin-top: 20%;
+  color: white;
+  font-size: 150%;
+}
+
+/*
+Nav Bar */
+.light{
+  width: 30%;
+  margin-left: 80%;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navigation{
+  background-color: #0779e4;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 120%;
+}
+.download-btn{
+  margin: 3% 5% 3% 0;
+}
+/* Explanation */
+#explanation{
+    background-color: #0779e4;
+}
+.mission1{
+  padding-top: 20%;
+  text-align: center;
+  font-size: 400%;
+  color: white;
+  font-family: 'Montserrat';
+}
+.mission1:hover{
+  color: #b088f9;
+}
+
+/* Podcasts */
+#podcasts{
+  background-color: #0779e4;
+}
+
+.h2-podcasts{
+  padding-top: 20%;
+  text-align: center;
+  font-size: 400%;
+  color: #b088f9;
+  font-family: 'Montserrat';
+}
+
+body{
+  background-color: #0779e4;
+}
