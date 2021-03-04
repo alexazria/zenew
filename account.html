@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zenew</title>
+    <script src="https://kit.fontawesome.com/9b934f4bf4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="account.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+
+
+
+
+
+
+
+  <body>
+
+    <section id="title">
+      <div class="container-fluid">
+
+        <!--Beginning of navbar-->
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img src="white.png" width="160" height="120" class="d-inline-block align-top" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ZeGroup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Relations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Jobs</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link" href="podcasts.html">Podcasts</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Networking</a>
+              </li> -->
+            </ul>
+          </div>
+        </nav>
+        <!--End of navbar-->
+
+
+        <!-- Explanation -->
+              <section id="explanation" >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3">
+                        <h1>Account:</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <h1 class="student-life">Let's make your student life count</h1>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+      <!-- End of Explanation -->
+
+
+
+
+
+
+<!-- Account -->
+
+<!-- <div class="title-container">
+  <div class="row">
+    <div class="col-lg-10" style="text-align: right;" >
+      <div class="col-lg-10 col-xl-5">
+              <form action="#" method="POST" id="tmContactForm" class="tm-bg-black-transparent tm-contact-form">
+              <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Username" required="">
+                      </div>
+                      <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                                <input type="Card" id="Card_subject" name="Card_subject" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Password" required="">
+                              </div>
+              <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Email" required="">
+                      </div>
+              <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="subject" id="contact_subject" name="contact_subject" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="University" required="">
+                      </div>
+              <!-- <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="Card" id="Card_subject" name="Card_subject" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="" required="">
+                      </div>
+              <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="Expiry Date" id="Expiry Date_subject" name="Expiry Date_subject" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Expiry Date" required="">
+                      </div>
+              <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <input type="CVC" id="CVC_subject" name="CVC_subject" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="CVC" required="">
+                      </div> -->
+              <!-- <div class="form-group col-md-7 col-xl-8 offset-xl-1">
+                        <textarea rows="6" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="About You" required=""></textarea>
+                      </div>
+              <div class="text-right col-xl-8 offset-xl-1">
+              <button type="submit" class="place-btn-order btn btn-dark tm-btn-submit rounded-0">Place Order</button>
+              </form>
+              </div>
+    </div> -->
+
+  <!-- </div>
+</div> -->
+
+
+
+
+<section id="form-account">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">University</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="University" required>
+      <div class="invalid-feedback">
+        Please provide a valid University.
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom04">Favorite Hobbies</label>
+      <input type="text" class="form-control" id="validationCustom04" placeholder="About You" required>
+      <div class="invalid-feedback">
+        Please provide a valid hobbies.
+      </div>
+    </div>
+    <!-- <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div> -->
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Sign up</button>
+</form>
+
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End of Account -->
+
+
+
+
+
+
+<!-- Create Your account -->
+
+
+
+<!-- Create Your account -->
+
+
+
+<!-- HELP PART -->
+<!-- <section id="Help">
+  <h1>Students, <br> Cohesion and Creativity that all about : INNOVATION</h1>
+
+</section> -->
+
+<!-- END HELP PART -->
+
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+  <!-- <a href="https://www.instagram.com/"> <img class="instagram" src="instagram.png" alt="instagram-picture"> </a> -->
+  <!-- <a href="https://www.linkedin.com/in/alexandre-azria-48b9b5193/?locale=en_US"> <img class="linkedin" src="linkedin-logo.png" alt="instagram-picture"> </a> -->
+    <p>© Copyright 2020 Zenew</p>
+
+  </footer>
+
+  <!--End Footer-->
+
+  </body>
+</html>
